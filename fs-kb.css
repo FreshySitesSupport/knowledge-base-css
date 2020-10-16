@@ -2,19 +2,17 @@
 /* CSS Document */
 
 @import "https://use.fontawesome.com/releases/v5.0.10/css/all.css";
-@import url('https://fonts.googleapis.com/css?family=Slabo+13px');
-
-/* hello there */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
 body {
 	background-position: center center;
-    background-repeat: repeat-y;
-    background-size: 100% auto;
-    background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-attachment: fixed;
 }
 
 a, h1 {
-	font-family: "Roboto", sans-serif;
+	font-family: 'Sofia', cursive;
 }
 
 h2 {
@@ -27,21 +25,21 @@ h2 a:hover {
 }
 
 h3, h4, h5, h6 {
-	font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    line-height: 1.25em;
+	font-family: 'Sofia', cursive;
+  font-size: 18px;
+  line-height: 1.25em;
 }
 
 p {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Sofia', cursive;
 }
 
 .collection-category h2 {
 	text-align:center;
 	color:#5a5a5a!important;
 	font-size: 32px;
-    line-height: 1em;
-    font-weight: 700;
+  line-height: 1em;
+  font-weight: 700;
 }
 
 .collection-category h2 a:hover {
@@ -69,11 +67,6 @@ li#knowledge-base {
 	display:none;
 }
 
-/*
-[class^=icon-] {
-	color:#ffffff;
-}*/
-
 #docsSearch::before {
 	display:block;
 	margin:auto;
@@ -91,8 +84,8 @@ li#knowledge-base {
 	text-align:center;
 	color:#5a5a5a;
 	font-size: 32px;
-		line-height: 1em;
-		font-weight: 400;
+	line-height: 1em;
+	font-weight: 400;
 }
 
 form#searchBar {
@@ -105,13 +98,13 @@ form#searchBar input.search-query:placeholder-shown {
 }
 #searchBar .search-query {
 	border:none;
-    outline: 0!important;
+  outline: 0!important;
 	transition:border linear .2s, box-shadow linear .2s;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
 #searchBar .search-query:focus {
 	border:none;
-    outline: 0!important;
+  outline: 0!important;
 	transition:border linear .2s, box-shadow linear .2s;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.20);
 }
@@ -130,7 +123,6 @@ form#searchBar input.search-query:placeholder-shown {
 	border:none;
 }
 .navbar .navbar-inner {
-	/*background-image: linear-gradient(to right, #50b849 , #d7e040);*/
 	background-color:#fff;
 	border:none;
 }
@@ -151,11 +143,10 @@ nav li#knowledge-base, nav li#help-desk, nav li#how-to-guides, nav li#search-eng
   box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 	background-color:#ffffff;
 	text-align: center;
-display: inline-block;
-width: 29%;
-border: 1px solid #e0e0e0;
-margin: 0 .8% 20px;
-padding: 1.5em 1em;
+  display: inline-block;
+  width: 29%;
+  margin: 0 .8% 20px;
+  padding: 1.5em 1em;
 cursor: pointer;
 -moz-transition: background .15s;
 -o-transition: background .15s;
@@ -201,7 +192,7 @@ a.category:nth-child(even) {
 	border-top:3px solid #00b140;
 }
 
-
+/*
 #collection-category-1 .category-list a:nth-child(1)::before {
 	content:'\f011';
 	font-family:'FontAwesome';
@@ -234,6 +225,7 @@ a.category:nth-child(even) {
 	padding-top:25px;
 
 }
+*/
 
 #collection-category-1 .category-list a:hover::before {
 	color:#ffffff;
