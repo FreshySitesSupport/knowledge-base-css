@@ -30,7 +30,8 @@ h3, h4, h5, h6 {
   line-height: 1.25em;
 }
 
-p {
+p,
+#fullArticle div{
 	font-family: 'Sofia', cursive;
 	font-size:18px!important;
 }
@@ -57,7 +58,7 @@ ul.nav {
 	top:0;
 	font-family: "Open Sans", sans-serif;
 	text-transform:uppercase;
-	font-weight:700;
+	font-weight:400;
 }
 
 .navbar .nav .active .caret {
@@ -343,6 +344,30 @@ h1.title {
 	background:none!important;
 	border: none;
 }
+
+.related h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    color: #4D4D4D;
+}
+
+.related ul>li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #00b140;
+}
+
+#fullArticle .callout-green {
+    background: rgba(219,228,66,.25)!important;
+    border-color: rgba(219,228,66,.25)!important;
+}
+
+#fullArticle .callout-green h3{
+	color: #494949!important;
+}
 /*--------------------------------*/
 
 /* Print Option Icon -------------*/
@@ -350,6 +375,10 @@ h1.title {
     font-size: 15px;
     padding: 15px;
     border-radius: 30px;
+}
+
+[class^=icon-]{
+	color: #494949!important;
 }
 /* --------------------------------*/
 
