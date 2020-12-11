@@ -30,10 +30,9 @@ h3, h4, h5, h6 {
   line-height: 1.25em;
 }
 
-p,
-#fullArticle div{
+p {
 	font-family: 'Sofia', cursive;
-	font-size:18px!important;
+	font-size:18px;
 }
 
 .collection-category h2 {
