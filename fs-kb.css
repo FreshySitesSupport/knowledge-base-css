@@ -3,6 +3,8 @@
 
 @import "https://use.fontawesome.com/releases/v5.0.10/css/all.css";
 @import url("https://use.typekit.net/wpj7qhk.css");
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
 	background-position: center center;
@@ -12,7 +14,7 @@ body {
 }
 
 a, h1 {
-	font-family: sofia pro,sans-serif;
+	font-family: Lora,sans-serif;
 }
 
 h2 {
@@ -25,14 +27,14 @@ h2 a:hover {
 }
 
 h3, h4, h5, h6 {
-	font-family: sofia pro,sans-serif;
+	font-family: Lora,sans-serif;
   font-size: 18px;
   line-height: 1.25em;
 }
 
 p,
 #fullArticle div {
-	font-family: sofia pro,sans-serif;
+	font-family: Poppins,sans-serif;
 	font-size:18px!important;
 }
 
@@ -56,7 +58,7 @@ p,
 ul.nav {
 	font-size:18px;
 	top:0;
-	font-family: sofia pro,sans-serif;
+	font-family: Poppins,sans-serif;
 	text-transform:uppercase;
 	font-weight:400;
 }
